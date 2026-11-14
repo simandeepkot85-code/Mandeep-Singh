@@ -1,6 +1,6 @@
-# Mintu Gill Kotkapura — Website
+# Mintu Gill Kotkapura · ਮਿੰਟੂ ਗਿੱਲ ਕੋਟਕਪੂਰਾ — Website
 
-सिंगर और गीतकार Mintu Gill (कोटकपुरा) की वेबसाइट।
+Official website of Mintu Gill Kotkapura — Singer & Lyricist. ਗਾਇਕ ਅਤੇ ਗੀਤਕਾਰ।
 
 ## कैसे बदलें
 - **फोटो:** `images/mintu.jpg` रखें और `index.html` में फोटो वाली लाइन चालू करें।
