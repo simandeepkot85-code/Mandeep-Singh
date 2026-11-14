@@ -100,6 +100,8 @@
 
     /* SONGS */
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 22px; }
+    .featured { position: relative; aspect-ratio: 16/9; max-width: 860px; margin: 0 auto 40px; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); background: #000; }
+    .featured iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
     .song {
       background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
       transition: transform .25s, border-color .25s;
@@ -197,11 +199,15 @@
 <section class="block" id="songs">
   <div class="wrap">
     <div class="head"><small>Music</small><h2>ਗੀਤ · Songs</h2></div>
+    <div class="featured">
+      <iframe src="https://www.youtube-nocookie.com/embed/Vfl4sjtq4ds" title="Mintu Gill Kotkapura — YouTube" loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="grid">
-      <!-- हर गाने के लिए href में अपना YouTube / Spotify लिंक डालें -->
-      <a class="song" href="#" target="_blank" rel="noopener">
-        <div class="cover"><div class="play">▶</div></div>
-        <div class="info"><h3>Song 1 · ਗੀਤ 1</h3><p>Singer & Lyricist: Mintu Gill Kotkapura</p></div>
+      <!-- ਹਰ ਗੀਤ ਲਈ href ਵਿੱਚ YouTube / Spotify ਲਿੰਕ ਪਾਓ -->
+      <a class="song" href="https://youtu.be/Vfl4sjtq4ds" target="_blank" rel="noopener">
+        <div class="cover" style="background:url('https://i.ytimg.com/vi/Vfl4sjtq4ds/hqdefault.jpg') center/cover, linear-gradient(135deg,#3a2a17,#15100b)"><div class="play">▶</div></div>
+        <div class="info"><h3>Latest Song · ਨਵਾਂ ਗੀਤ</h3><p>Singer & Lyricist: Mintu Gill Kotkapura</p></div>
       </a>
       <a class="song" href="#" target="_blank" rel="noopener">
         <div class="cover"><div class="play">▶</div></div>
