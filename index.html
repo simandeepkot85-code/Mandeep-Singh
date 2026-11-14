@@ -99,7 +99,7 @@
     .roles span { background: var(--card); border: 1px solid var(--line); padding: 8px 18px; border-radius: 99px; font-size: .9rem; color: var(--gold-2); }
 
     /* SONGS */
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 22px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 320px)); justify-content: center; gap: 22px; }
     .featured { position: relative; aspect-ratio: 16/9; max-width: 860px; margin: 0 auto 40px; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); background: #000; }
     .featured iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
     .song {
@@ -154,7 +154,6 @@
     <ul class="links" onclick="this.classList.remove('open')">
       <li><a href="#about">About · ਜਾਣ-ਪਛਾਣ</a></li>
       <li><a href="#songs">Songs · ਗੀਤ</a></li>
-      <li><a href="#lyrics">Lyrics · ਬੋਲ</a></li>
       <li><a href="#contact">Contact · ਸੰਪਰਕ</a></li>
     </ul>
   </nav>
@@ -210,6 +209,7 @@
         <div class="cover" style="background:url('https://i.ytimg.com/vi/Vfl4sjtq4ds/hqdefault.jpg') center/cover, linear-gradient(135deg,#3a2a17,#15100b)"><div class="play">▶</div></div>
         <div class="info"><h3>Graph · ਗ੍ਰਾਫ਼</h3><p class="new">★ Latest Song · ਨਵਾਂ ਗੀਤ</p><p>Singer & Lyricist: Mintu Gill Kotkapura</p></div>
       </a>
+      <!-- ਹੋਰ ਗੀਤ ਬਾਅਦ ਵਿੱਚ:
       <a class="song" href="#" target="_blank" rel="noopener">
         <div class="cover"><div class="play">▶</div></div>
         <div class="info"><h3>Song 2 · ਗੀਤ 2</h3><p>Singer & Lyricist: Mintu Gill Kotkapura</p></div>
@@ -218,15 +218,17 @@
         <div class="cover"><div class="play">▶</div></div>
         <div class="info"><h3>Song 3 · ਗੀਤ 3</h3><p>Singer & Lyricist: Mintu Gill Kotkapura</p></div>
       </a>
+      -->
     </div>
   </div>
 </section>
 
+<!-- ਗੀਤਾਂ ਦੇ ਬੋਲ ਬਾਅਦ ਵਿੱਚ:
 <section class="block" id="lyrics">
   <div class="wrap">
     <div class="head"><small>Pen</small><h2>ਕਲਮ ਤੋਂ · From the Pen</h2></div>
     <div class="lyrics">
-      <!-- यहाँ अपने लिखे गीतों की पंक्तियाँ डालें -->
+       यहाँ अपने लिखे गीतों की पंक्तियाँ डालें 
       <div class="verse">
         ਇੱਥੇ ਤੁਹਾਡੇ ਗੀਤ ਦੀਆਂ<br>ਪਹਿਲੀਆਂ ਕੁਝ ਲਾਈਨਾਂ ਆਉਣਗੀਆਂ…
         <cite>— Song name · ਗੀਤ ਦਾ ਨਾਮ</cite>
@@ -238,6 +240,7 @@
     </div>
   </div>
 </section>
+-->
 
 <section class="block contact" id="contact">
   <div class="wrap">
@@ -250,9 +253,9 @@
     </div>
     <div class="social">
       <a href="https://www.youtube.com/@mandeepgillkotkapura" target="_blank" rel="noopener">YouTube</a>
-      <a href="#" target="_blank" rel="noopener">Instagram</a>
+      <!-- <a href="INSTAGRAM_LINK" target="_blank" rel="noopener">Instagram</a> -->
       <a href="https://www.facebook.com/share/1GpXW8C66p/" target="_blank" rel="noopener">Facebook</a>
-      <a href="#" target="_blank" rel="noopener">Spotify</a>
+      <a href="https://open.spotify.com/user/31cc7vitccgdccz5kptiqrz7nehq" target="_blank" rel="noopener">Spotify</a>
     </div>
   </div>
 </section>
